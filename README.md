@@ -133,6 +133,8 @@ Best Practice documentation steps:
 ![alt text](image.png)
 ![alt text](image-1.png)
 
+ **Both functions use the property decorator to define methods that can be accessed in a `similar` way to an attribute.**
+
 * The Book class can be used to create a Book object, the Book class has an in-built type checking to validate whether or not the object created included an integer that would be assigned to the page_count attribute.<br>
 The book method contains a method called `turn-page`, which prints the message:
 ```console
