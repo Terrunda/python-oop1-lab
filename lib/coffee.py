@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 class Coffee:
-    coffee_sizes = ["Small", "Medium", "Large"]
+    coffee_sizes = ["Small", "Medium", "Large"] #Permitted entries for size.
 
     def __init__(self, size, price):
         self.size = size

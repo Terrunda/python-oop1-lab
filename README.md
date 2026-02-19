@@ -128,6 +128,20 @@ Best Practice documentation steps:
 * Remove unnecessary/commented out code
 * If needed, update git ignore to remove sensitive data 
 
+## Documentation
+### Completed classes of `Book` and `Coffee`, with comments to clarify functionality.
+![alt text](image.png)
+![alt text](image-1.png)
+
+* The Book class can be used to create a Book object, the Book class has an in-built type checking to validate whether or not the object created included an integer that would be assigned to the page_count attribute.<br>
+The book method contains a method called `turn-page`, which prints the message:
+```console
+$ Flipping the page...wow, you read fast.
+```
+
+* The Coffee class can be used to create an object, when an instance of the Coffee is created, the class checks whether the size argument matches the valid coffee sizes: `Small, Medium, or Large`.<br>
+The Coffee class also contains a method called `tip` which increases the coffee's price attribute by 1.
+
 ## Save your work and push to GitHub
 
 Before you submit your solution, you need to save your progress with git.

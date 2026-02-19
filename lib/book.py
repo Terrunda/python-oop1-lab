@@ -5,7 +5,7 @@ class Book:
                 self.title = title
                 self.page_count = page_count
 
-                if (type(self.page_count) != int):
+                if (type(self.page_count) != int): #page_count is type checked to be an integer
                         print("page_count must be an integer")
                         return
             
