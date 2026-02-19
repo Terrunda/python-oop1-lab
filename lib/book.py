@@ -13,6 +13,3 @@ class Book:
                 print("Flipping the page...wow, you read fast.")
     
 
-bookTest = Book("test title", "hi")
-bookValid = Book("Test 2", 50)
-
